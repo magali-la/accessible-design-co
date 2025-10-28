@@ -42,3 +42,14 @@ nav {
     flex-direction: row;
     gap: 24px;
 }
+
+.nav-links a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #333232;
+}
+
+.nav-links a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}

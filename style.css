@@ -4,6 +4,7 @@ body {
     color: #333232;
     background-color: #FFEED6;
     font-size: 1.25rem;
+    width: 100vw;
 }
 
 /* basic styles */
@@ -118,4 +119,45 @@ nav {
 
 .values-list li {
     margin-bottom: 16px;
+}
+
+/* services section styling */
+.services-section {
+    margin: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    gap: 16px;
+}
+
+.services-card {
+    border: 2px solid #333232;
+    border-radius: 30px;
+    padding: 8px;
+    background-color: white;
+    height: fit-content;
+    text-align: center;
+}
+
+.services-card img {
+    height: 175px;
+    width: 175px;
+}
+
+/* media queries */
+@media (max-width: 700px){
+    .services-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-card img {
+        height: 200px;
+        width: 200px;
+    }
+    
 }

@@ -151,6 +151,61 @@ nav {
     width: 175px;
 }
 
+/* contact styling */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #333232;
+    border-radius: 30px;
+    width: 60vw;
+    background-color: white;
+    padding: 16px 20px;
+    margin: 0 auto;
+}
+
+input {
+    height: 24px;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    color: #565353;
+}
+
+textarea {
+    border-radius: 4px;
+}
+
+textarea::placeholder {
+    color: #565353;
+}
+
+button[type="submit"]{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #333232;
+    color: #FFEED6;
+    height: 40px;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inclusive Sans';
+    padding: 4px 16px;
+}
+button[type="submit"]:hover {
+    font-weight: 700;
+    background-color: rgb(219, 111, 72);
+    color: #333232;
+
+}
+
+
 /* footer styling */
 footer {
     background-color: #333232;
@@ -225,6 +280,15 @@ footer {
     .services-card img {
         height: 200px;
         width: 200px;
+    }
+
+    form {
+        width: 80vw;
+    }
+
+    button[type="submit"]{
+        width: 70%;
+        height: 44px;
     }
 
     .footer-list {

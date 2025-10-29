@@ -86,19 +86,20 @@ nav {
 .hero-section button{
     color: #333232;
     background-color: #FFEED6;
-    width: 20vw;
+    width: fit-content;
     height: 56px;
     border-radius: 24px;
     font-size: 1.5rem;
     font-weight: 500;
     font-family: 'Inclusive Sans';
+    padding: 4px 16px;
+
 }
 
 .hero-section button:hover{
     color:#FFEED6;
     background-color: #333232;
     font-weight: 600;
-
 }
 
 .hero-text {
@@ -205,6 +206,16 @@ footer {
 
     .nav-links a{
         font-size: 1rem;
+    }
+
+    .hero-text {
+        font-size: 2rem;
+    }
+    .hero-section button{
+        font-size: 1.25rem;
+    }
+    .section-header {
+        font-size: 2rem;
     }
 
     .services-grid {

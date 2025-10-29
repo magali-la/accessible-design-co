@@ -15,6 +15,12 @@ p {
     font-size: 1.25rem;
 }
 
+/* focus elements */
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible {
+    outline-color: rgb(219, 111, 72);
+    outline-offset: 4px;
+}
+
 nav {
     height: 15vh;
     display: flex;
@@ -231,6 +237,10 @@ footer {
 .footer-list a:hover {
     font-weight: 600;
     text-decoration: underline;
+}
+
+.copyright {
+    margin-left: 36px;
 }
 
 

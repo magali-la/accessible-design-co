@@ -51,6 +51,7 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    padding: 0;
 }
 
 .nav-links a{
@@ -149,8 +150,63 @@ nav {
     width: 175px;
 }
 
+/* footer styling */
+footer {
+    background-color: #333232;
+    color: #FFEED6;
+    padding: 12px 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    color: #FFEED6;
+}
+
+.footer-list a{
+    font-size: 1.25rem;
+    color: #FFEED6;
+}
+
+.footer-list a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
 /* media queries */
 @media (max-width: 700px){
+    nav {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .nav-title-section {
+        flex-direction: column;
+        gap: 8px;
+        /* height: 100%; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-title {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color:#333232;
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    .nav-links a{
+        font-size: 1rem;
+    }
+
     .services-grid {
         display: flex;
         flex-direction: column;
@@ -158,6 +214,10 @@ nav {
     .services-card img {
         height: 200px;
         width: 200px;
+    }
+
+    .footer-list {
+        flex-direction: column;
     }
     
 }

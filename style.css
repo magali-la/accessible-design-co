@@ -29,6 +29,11 @@ nav {
     align-items: center;
     border-bottom: 2px solid black;
     padding: 4px 20px;
+    position: fixed;
+    background-color: #FFEED6;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {
@@ -87,6 +92,7 @@ nav {
     align-items: center;
     text-align: center;
     gap: 48px;
+    margin-top: 15vh;
 }
 
 .hero-section button{
@@ -275,6 +281,10 @@ footer {
 
     .hero-text {
         font-size: 2rem;
+    }
+
+    .hero-section{
+        margin-top: 30vh;
     }
     .hero-section button{
         font-size: 1.25rem;

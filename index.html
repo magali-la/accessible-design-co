@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav role="navigation">
             <div class="nav-title-section">
                 <img src="./assets/adc-logo-t.png" alt="AD Co logo with a11y icon in center" class="logo"/>
                 <a class="nav-title" href="#">Accessible Design Co.</a>
@@ -26,12 +26,12 @@
     </header>
     <main>
         <!-- hero section -->
-        <section class="hero-section">
+        <section class="hero-section" aria-label="hero section">
             <h1 class="hero-text">We'll always be your one stop shop for all things accessible, scalable, design and development</h1>
             <button>Contact us now!</button>
         </section>
         <!-- about section -->
-        <section class="about-section">
+        <section class="about-section" aria-label="about section">
             <h2 class="section-header">Our Story</h2>
             <p>We are a small company growing day by day started by two friends. We service 25 clients across industries, including small businesseses, entrepreneurs, and creatives! We help bring companies up to 21st century accessibility standards to make sure you can reach clients of all abilities!</p>
             <h3>Our core values</h3>
@@ -42,7 +42,7 @@
             </ul>
         </section>
         <!-- services section -->
-        <section class="services-section">
+        <section class="services-section" aria-label="our services section">
             <h2 class="section-header">Our Services</h2>
             <div class="services-grid">
                 <div class="services-card">
@@ -73,7 +73,7 @@
         </section>
 
         <!-- contact section -->
-        <section class="contact-section">
+        <section class="contact-section" aria-label="contact section">
             <h2 class="section-header">Want to Learn More?</h2>
             <form>
                 <legend>Contact Form</legend>
@@ -85,7 +85,7 @@
                 <input type="text" id="subject" placeholder="Help with Website" required aria-invalid="false" aria-required="true">
                 <label for="message">Message:</label>
                 <textarea id="message" placeholder="Type your message here." required aria-invalid="false" aria-required="true"></textarea>
-                <button type="submit" >Submit Form</button>
+                <button type="submit" aria-label="Click to submit form">Submit Form</button>
             </form>
         </section>
     </main>
